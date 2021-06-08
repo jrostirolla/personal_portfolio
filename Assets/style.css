@@ -32,6 +32,7 @@ h1 {
     background-color: #EABDA8;
     float: left;
     color: #493843;
+    padding-left: 5px;
 }
 
 .navbar {
@@ -130,6 +131,16 @@ h2 {
 
 #contacts a {
     padding-left: 5px;
+}
+
+footer {
+    background-color: #493843;
+    color: #EABDA8;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 /* image properties */
