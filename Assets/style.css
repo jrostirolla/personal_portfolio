@@ -1,0 +1,146 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+.color_palette_1 {
+    color: #ffa9e7;
+    color: #FF84E8;
+    color: #7F2CCB;
+    color: #414361;
+    color: #2A2D43;
+}
+*/
+
+/*
+.color_palette_2 {
+    color: #493843;
+    color: #61988E;
+    color: #A0B2A6;
+    color: #CBBFBB;
+    color: #EABDA8;
+}
+*/
+
+header {
+    background-color: #493843;
+    border: solid #493843;
+
+}
+
+h1 {
+    background-color: #EABDA8;
+    float: left;
+    color: #493843;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #493843;
+    height: 90px;
+}
+
+.navbar li {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    color: #EABDA8;
+    padding: 8px;
+    padding-right: 5px;
+    margin-top: 28px;
+    color: #EABDA8;
+}
+
+.navbar a {
+    color: #EABDA8;
+    font-size: 20px;
+}
+
+body {
+    background-color: #A0B2A6;
+}
+
+h2 {
+    text-align: right;
+    padding-right: 5px;
+    border-bottom: solid black;
+    width: 360px;
+}
+
+.sectionTitle {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    float: left;
+    justify-content: right;
+    box-sizing: border-box;
+}
+
+#aboutMeText {
+
+    padding-top: 40px;
+}
+
+#aboutMeText p {
+
+}
+
+#work {
+    float: right;
+}
+
+#bigPicture {
+    width: 70%;
+    float: right;
+    float: right;
+    border: 5px solid #61988E;
+    margin: 0 10px 5px 400px ;
+}
+
+.lead {
+    margin-left: 400px;
+}
+
+.smallPicture {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    border: 5px solid #61988E;
+    width: 30%;
+    margin: 5px 5px 0 5px;
+    flex: 50%;
+    max-width: 30%;
+}
+
+#contacts div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 400px;
+}
+
+#contacts p {
+    padding-left: 5px;
+}
+
+#contacts a {
+    padding-left: 5px;
+}
+
+/* image properties */
+#banner {
+    width: 100%;
+}
+
+#headshot {
+    width: 300px;
+    padding: 0px 0px 0px 40px;
+    box-shadow: 5px 10px 10px grey ;
+    margin-bottom: 10px;
+}
+
