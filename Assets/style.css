@@ -2,6 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --text-back: #EABDA8;
+    --back1: #493843;
+
+}
 /*
 .color_palette_1 {
     color: #ffa9e7;
@@ -23,13 +28,13 @@
 */
 
 header {
-    background-color: #493843;
+    background-color: var(--back1);
     border: solid #493843;
 
 }
 
 h1 {
-    background-color: #EABDA8;
+    background-color: var(--text-back);
     float: left;
     color: #493843;
     padding-left: 5px;
@@ -40,7 +45,7 @@ h1 {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #493843;
+    background-color: var(--back1);
     height: 90px;
 }
 
@@ -50,15 +55,15 @@ h1 {
     justify-content: flex-end;
     align-items: center;
     float: right;
-    color: #EABDA8;
+    color: var(--text-back);
     padding: 8px;
     padding-right: 5px;
     margin-top: 28px;
-    color: #EABDA8;
+    color: var(--text-back);
 }
 
 .navbar a {
-    color: #EABDA8;
+    color: var(--text-back);
     font-size: 20px;
 }
 
@@ -83,7 +88,6 @@ h2 {
 }
 
 #aboutMeText {
-
     padding-top: 40px;
 }
 
@@ -92,31 +96,50 @@ h2 {
 }
 
 #work {
+    display: flex;
+    flex-wrap: wrap;
     float: right;
+    position: relative;
 }
 
 #bigPicture {
     width: 70%;
     float: right;
-    float: right;
-    border: 5px solid #61988E;
+    border: 5px solid var(--back1);
     margin: 0 10px 5px 400px ;
-}
-
-.lead {
-    margin-left: 400px;
+    position: relative;
 }
 
 .smallPicture {
     display: flex;
     justify-content: flex-end;
     float: right;
-    border: 5px solid #61988E;
+    border: 5px solid var(--back1);
     width: 30%;
     margin: 5px 5px 0 5px;
     flex: 50%;
-    max-width: 30%;
+    aspect-ratio: 3 / 1.9;
+    width: 30%;
+    position: relative;
 }
+
+.sub1 {
+    position: relative;
+    bottom: 25px;
+    left:0px;
+}
+
+.sub2 {
+    position: relative;
+    bottom: 15px;
+    left:0px;
+}
+
+/*
+.lead {
+    margin-left: 400px;
+}
+*/
 
 #contacts div {
     display: flex;
@@ -134,8 +157,8 @@ h2 {
 }
 
 footer {
-    background-color: #493843;
-    color: #EABDA8;
+    background-color: var(--back1);
+    color: var(--text-back);
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -155,3 +178,6 @@ footer {
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 768px) {
+
+}
