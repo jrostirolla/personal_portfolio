@@ -3,106 +3,168 @@
 
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="Assets/normalise.css">
-<link rel="stylesheet" href="Assets/style.css">
-<title>My Portfolio</title>
+<!-- <link rel="stylesheet" href="Assets/normalise.css">
+<link rel="stylesheet" href="Assets/style.css"> -->
+<title>James Rostirolla</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="assets/css/modstyle.css"  media="screen,projection"/>
 </head>
 
 <body>
-    <header>
-        <h1> James Rostirolla </h1>
+    <header class="nav-wrapper">
+        <h1 class="brand-logo" id="h1-title"> James Rostirolla </h1>
         <nav >
-            <ul class="navbar">
+            <ul class="right hide-on-med-and-down">
                 <li><a href="#aboutMe"> About Me </a></li>
-                <li><a href="#work"> Work </a></li>
+                <li><a href="#workTitle"> Work </a></li>
                 <li><a href="#contacts"> Contact </a></li>
                 <!--<li><a href="#"> Resume </a></li>-->
             </ul>
         </nav>
     </header>
-
     <!--Banner image-->
     <section>
         <img id="banner" alt="surveyor searching for the code" src="Assets/img/surveyor_edit.jpg">
     </section>
-    <article class="sectionTitle">
-        <h2 id="aboutMe">About me</h2>
-        <img id="headshot" alt="James Rostirolla" src="Assets/img/display_photo.png">
-    </article>
-    <aside id="aboutMeText">
-        <p>
-            Hi there! My name is James, and I'm currently looking to grow
-            my knowledge and become a programmer! I started out as a surveyor,
-            worked 8 years in the field, and finally decided that it wasn't
-            what I wanted to do anymore. So I left the industry and join the 
-            coding side instead, to see what it's all about!
-        </p>
-        <p>
-            I am driven for success in the industry. With my many years of survey
-            knowledge, I hope to work with companies to better improve on the
-            modern technology surveyors use everyday. I also hope to one day
-            learn enough to become a teacher myself, and prepare the next
-            generation of programmers!
-        </p>
-        <p>
-            I have worked in a lot of interesting places in my career. Some of 
-            my proudest jobs include the containment upgrades on the Bomaderry Ethanol
-            plant, construction surveys conducted across various large 
-            housing developments across NSW, and working with various other contractors
-            on the contruction of the Parramatta Light Rail.
-        </p>
-        <p>
-            I am currently working on developing my creative skills through studying
-            in the "UNSW Trinity Coding Bootcamp", and hope to find work with a company 
-            working with survey technology, as  I believe my experience will be very 
-            useful to my work.
-        </p>
-    </aside>
+
+    <!-- About me Window -->
+<div class="col s12 m7 row" id="aboutMe">
+    <h2 class="header">About me</h2>
+    <div class="card horizontal">
+        <div class="card-image">
+            <img id="headshot" alt="James Rostirolla" src="Assets/img/display_photo.png">
+        </div>
+        <div class="card-stacked">
+            <div class="card-content">
+                <br>
+                <p>
+                    Hi there! My name is James, and I'm currently looking to grow
+                    my knowledge and become a programmer! I started out as a surveyor,
+                    worked 8 years in the field, and finally decided that it wasn't
+                    what I wanted to do anymore. So I left the industry and join the 
+                    coding side instead, to see what it's all about!
+                </p>
+                <br>
+                <p>
+                    I am driven for success in the industry. With my many years of survey
+                    knowledge, I hope to work with companies to better improve on the
+                    modern technology surveyors use everyday. I also hope to one day
+                    learn enough to become a teacher myself, and prepare the next
+                    generation of programmers!
+                </p>
+                <br>
+                <p>
+                    I have worked in a lot of interesting places in my career. Some of 
+                    my proudest jobs include the containment upgrades on the Bomaderry Ethanol
+                    plant, construction surveys conducted across various large 
+                    housing developments across NSW, and working with various other contractors
+                    on the contruction of the Parramatta Light Rail.
+                </p>
+                <br>
+                <p>
+                    I am currently working on developing my creative skills through studying
+                    in the "UNSW Trinity Coding Bootcamp", and hope to find work with a company 
+                    working with survey technology, as  I believe my experience will be very 
+                    useful to my work.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 <br>
 
-    <article>
-        <h2 class="sectionTitle">Work</h2>
-    </article>
-        <aside id="work">
-            <a href="https://jrostirolla.github.io/Horiseon-exercise/"><img id="bigPicture" alt="horiseon business meeting" src="Assets/img/01-html-css-git-homework-demo.png"></div>
-                <div class="sub1">Horiseon</div>
-                <div class="sub2">HTML/CSS accessibilty upgrades</div></a>
-            <a href="https://jrostirolla.github.io/page_under_construction/"><img class="smallPicture" alt="Happy teacher" src="Assets/img/happy_teacher.jpg"></a>
-                <div class="sub1">Teacherise</div>
-                <div class="sub2">Teaching support app</div>
-            <a href="https://jrostirolla.github.io/papa_shrimps/"><img class="smallPicture" alt="shrimp in the water" src="Assets/img/1200-6664-shrimps-photo1.jpg"></a>
-                <div class="sub1">Papa Shrimps Aquariums</div>
-                <div class="sub2">Local fisheries website build</div>
-            <a href="https://jrostirolla.github.io/page_under_construction/"><img class="smallPicture" alt="Gluten-free symbol" src="Assets/img/gluten_free.png"></a>
-                <div class="sub1">Coeliac Helper</div>
-                <div class="sub2">A food / restaurant finder</div>
-            <a href="https://jrostirolla.github.io/page_under_construction/"><img class="smallPicture" alt="Planted fishtank" src="Assets/img/planted_overview.jpg"></a>
-                <div class="sub1">Fishtank Builder</div>
-                <div class="sub2">A guide for newbie aquarists</div>
-        </aside>
-    <article>
-        <h2>Contact</h2>
-    </article>
-        <aside id="contacts">
-            <div>
-                <h3>Phone:</h3>
-                <p>0421 792 430</p>
+<!-- Work cards -->
+<div class="container">
+    <div class="row">
+        <div class="col"><h1 class="flow-text" id="workTitle">Work</h1></div>
+            <div class="row">
+                <!-- Main card 1 -->
+                <div class="col m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/img/cocktailHUB.jpg">
+                            <span class="card-title">CocktailHUB</span>
+                            <a href="https://zahramertens.github.io/Project-1/" class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content containerText">
+                            <p>An app that assists the user with finding recipes for various cocktails</p> <hr>
+                            <p><b>Involved:</b> API calls, Javascript, HTML, Materialise CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Small card 1 -->
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/img/weather-app.jpeg">
+                            <span class="card-title">Weather App</span>
+                            <a href="https://jrostirolla.github.io/weather-app/" class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="class-content containerText">
+                            <p>An app that displays the weather in a particular city</p> <hr>
+                            <p><b>Involved:</b> API calls, Javascript, HTML, CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/img/schedule.jpg">
+                            <span class="card-title">Work Schedule</span>
+                            <a href="https://jrostirolla.github.io/work-schedule/" class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="class-content containerText">
+                            <p>A quick and easy app for helping the user schedule their day</p> <hr>
+                            <p><b>Involved:</b> Updates to HTML, Javascript, CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/img/password_generator.jpg">
+                            <span class="card-title">Password Generator</span>
+                            <a href="https://jrostirolla.github.io/password_generater/" class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="class-content containerText">
+                            <p>A tweekable password generator with additional character options</p><hr>
+                            <p><b>Involved:</b> HTML, Javascript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/img/1200-6664-shrimps-photo1.jpg">
+                            <span class="card-title">Papa Shrimps</span>
+                            <a href="https://jrostirolla.github.io/papa_shrimps/" class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="class-content containerText">
+                            <p>A work in progress test site for a local pet store</p><hr>
+                            <p><b>Involved:</b>  🚧  [ UNDER CONSTRUCTION ]  🚧 </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Edge of tiles -->
             </div>
-            <div>
-                <h3>Email:</h3>
-                <p>j_rostirolla@hotmail.com</p>
+    </div>
+</div>
+
+<div class="col s12 m7 row" id="contacts">
+    <h2 class="header">Contact</h2>
+    <div class="card horizontal">
+        <div class="card-stacked">
+            <div class="card-content">
+                <br>
+                <h3><b>Phone:</b> 0421 792 430</h3>
+                <hr>
+                <h3><b>Email:</b> james.rostirolla@outlook.com</h3>
+                <hr>
+                <h3><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/james-rostirolla-934b76a7/">James Rostirolla</a></h3>
+                <hr>
+                <h3><b>GitHub:</b> <a href="https://github.com/jrostirolla">jrostirolla</a></h3>
             </div>
-            <div>
-                <h3>Linkedin:</h3>
-                <a href="https://www.linkedin.com/in/james-rostirolla-934b76a7/">James Rostirolla</a>
-            </div>
-            <div>
-                <h3>Github:</h3>
-                <a href="https://github.com/jrostirolla">jrostirolla</a>
-            </div>
-        </aside>
-        <footer>
-            <h3>© Jimbob Rusty Industries 🐟</h3>
-        </footer>
-</body>
-</html>
+        </div>
+    </div>
+</div>

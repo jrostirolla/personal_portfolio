@@ -1,0 +1,40 @@
+#h1-title {
+    position: absolute;
+    top: 0px;
+    font-size: 48px;
+    margin: 0px 0px 0px 10px;
+}
+
+#banner {
+    width: 100%;
+}
+
+#aboutMe {
+    max-width: 1200px;
+}
+
+#workTitle {
+    font-size: 60px;
+}
+
+#contacts {
+    max-width: 1200px;
+}
+
+.containerText {
+    padding: 10px 10px 10px 10px;
+}
+
+body {
+    background-image: url("background_image_MOD.jpg");
+}
+
+.card-image img {
+    aspect-ratio: 1235 / 694.6;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
