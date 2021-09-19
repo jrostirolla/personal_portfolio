@@ -9,12 +9,23 @@
     width: 100%;
 }
 
+#dialog-form {
+    background-color: white;
+}
+
 #aboutMe {
     max-width: 1200px;
 }
 
+#aboutMeInfo {
+    margin: 15px;
+}
+
 #headshot {
     aspect-ratio: 600 / 488;
+    width: 100%;
+    padding: 15px;
+    border: 2px black solid;
 }
 
 #workTitle {
